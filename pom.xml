@@ -28,9 +28,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:GMNProjects/TimeManagerSocial.git</connection>
-        <developerConnection>scm:git:git@github.com:GMNProjects/TimeManagerSocial.git</developerConnection>
-        <url>git@github.com:GMNProjects/TimeManagerSocial.git</url>
+        <connection>scm:git:git@github.com:GMNProjects/TimeManagerTimer.git</connection>
+        <developerConnection>scm:git:git@github.com:GMNProjects/TimeManagerTimer.git</developerConnection>
+        <url>git@github.com:GMNProjects/TimeManagerTimer.git</url>
     </scm>
 
     <licenses>

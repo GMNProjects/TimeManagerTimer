@@ -24,7 +24,7 @@ public class DefaultTimer implements Timer {
     }
 
     @Override
-    public void start() {
+    public Calendar start() {
         if (isRun()) {
             throw new RuntimeException("Timer already running!");
         }
@@ -32,6 +32,7 @@ public class DefaultTimer implements Timer {
         timer = new BackGroundTimer(updater);
         backGroundTimerThread = new Thread(timer);
         backGroundTimerThread.start();
+        return startTime;
     }
 
     @Override

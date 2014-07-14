@@ -1,6 +1,6 @@
 package com.rhcloud.gmn.tm.timer;
 
-import java.util.Date;
+import java.util.Calendar;
 
 /**
  * @author GMNProjects
@@ -9,10 +9,11 @@ public interface Timer {
     /**
      * Начать отчет
      */
-    public void start() ;
+    public Calendar start();
 
     /**
      * Закончить отчет
+     *
      * @return
      */
     public long stop();
